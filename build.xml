@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <project name="StockWatcher" default="build" basedir=".">
   <!-- Configure path to GWT SDK -->
-  <property name="gwt.sdk" location="/path/to/gwt.sdk" />
+  <property name="gwt.sdk" location="war/WEB-INF/lib/" />
 
   <path id="project.class.path">
     <pathelement location="war/WEB-INF/classes"/>
