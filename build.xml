@@ -110,7 +110,7 @@
     </junit>
   </target>
 
-  <target name="test" description="Run development and production mode tests">
+ <!-- <target name="test" description="Run development and production mode tests">
     <antcall target="test.dev" />
     <antcall target="test.prod" />
   </target>
@@ -126,6 +126,6 @@
   <target name="clean" description="Cleans this project">
     <delete dir="war/WEB-INF/classes" failonerror="false" />
     <delete dir="war/stockwatcher" failonerror="false" />
-  </target>
+  </target>-->
 
 </project>
